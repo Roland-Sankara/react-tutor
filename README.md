@@ -38,3 +38,8 @@ State
 
 const [eggs, setEggs] = useState(0)
 
+### Routing in React
+- Installing React Router Dom
+- Creating a Routes file (With all routes and their elements) - These should be in the routing folder
+- Use the Link component to navigate.
+- Navigate using the useNavigate hook.

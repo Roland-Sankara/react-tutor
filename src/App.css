@@ -58,7 +58,13 @@ button{
     background-color: orange;
     color: white;
     font-weight: bold;
-    margin-top: 100px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+button:hover{
+    transform: scale(0.9);
 }
 
 .btns{
@@ -70,4 +76,10 @@ button{
 
 a{
     padding: 10px;
+}
+
+.header-nav{
+    border-bottom: 1px solid gray;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
 }

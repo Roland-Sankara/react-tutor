@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = (props) => {
   return (
-    <div>
+    <div className='header-nav'>
         {props.children}
     </div>
   )
